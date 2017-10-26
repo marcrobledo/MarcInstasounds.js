@@ -1,0 +1,15 @@
+CACHE MANIFEST
+#v20171020
+#CACHE:
+index.html
+MarcInstasounds.css
+MarcInstasounds.js
+_instasounds_pack_example.js
+RobotoCondensed.woff2
+sprites.png
+buttons.png
+favicon.png
+
+# force these files to be loaded in network
+NETWORK:
+*

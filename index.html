@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html manifest="MarcInstasounds.appcache">
+<head>
+	<title>MarcInstasounds.js</title>
+	<!-- CHARSET -->
+	<meta charset="UTF-8"/>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+	<!-- META tags -->
+	<meta name="description" content="Instant videogame sound clips just for fun! Made with pure HTML5."/>
+	<meta name="keywords" content="shao kahn, resident evil 4, ganados, voice, sound, clips, instant, buttons, html5"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+
+	<!-- FAVICON -->
+	<link rel="shortcut icon" href="./favicon.png"/>
+
+	<!-- MANIFEST for Chrome-->	
+	<meta name="theme-color" content="#b2ff3a"/> <!-- <M46: specify Android bar color -->
+	<link rel="manifest" href="manifest.json"/> <!-- M39 -->
+	<link rel="icon" sizes="128x128" href="favicon.png"/> <!-- M31-M38 -->
+	<meta name="mobile-web-app-capable" content="yes"/> <!-- M31-M38/Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#b2ff3a"/><!-- Safari -->
+
+	<!-- STYLE -->
+	<link type="text/css" rel="stylesheet" href="./MarcInstasounds.css" media="all"/>
+
+	<!-- JS -->
+	<script type="text/javascript" src="./MarcInstasounds.js"></script>
+	<script type="text/javascript" src="./_instasounds_pack_example.js"></script> <!-- this is the audio collection file for MarcInstaSounds -->
+</head>
+<body>
+<div id="top-bar">
+	<span id="button-menu"></span><span id="title" class="title">MarcInstasounds.js</span>
+	<input type="text" id="input-search" onkeyup="MarcInstantSounds.search(this.value)" />
+</div>
+
+<div id="overlay"></div>
+<div id="menu"><ul id="ul-menu"></ul><div id="copy">&copy; 2016-2017 Marc Robledo</div></div>
+
+
+
+<div class="row" id="ul"></div>
+
+
+</body>
+</html>
